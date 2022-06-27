@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Press+Start+2P&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+    <title>Workshop: Computer Vision</title>
+</head>
+<body>
+   <div class="back"> <a href="index.html">◄ Back</a></div>
+    <div class="tabs">
+        <!--why add name attribute: you want the content to pop up as one button is selected,
+            so the radio button know they belong to a same group and only 1 will be chosen at a time, 
+            else both will be selected-->
+        <input type="radio" class="radioTabs" name="topicSection" id="tab1" checked>
+        <label for="tab1" class="tabLabel">Workshop: Computer Vision</label>
+        <div class="tabContent">
+
+            
+            
+  
+            <ul>
+                 <em> In this workshop we experimented coding with p5.js to create simple, interactive programs.</em><br>
+                
+               <br></ul>
+     
+
+            <h3 class="tabs h3">Portfolio Assignment 3. Add Color<br></h3>
+            <ul>
+                <iframe src="https://onedrive.live.com/embed?cid=9FC9E430048B5EEC&resid=9FC9E430048B5EEC%21117&authkey=AMuKRRtKH3OEqfU" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <br>
+                
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-06-02 at 3.02.32 PM.png"
+                alt="computervision">
+            <li>
+                For this assignment, we need to add (random) colour to the sketch.
+
+                I added a conditional where an ellipse, controlled by the movement of mouse coordinates, changes its opacity and hue of colour ranges when it is pressed. By removing the background in the draw() function, the ellipse leave traces as the draw() function runs every time, which turns it into a paint brush.
+            </li>
+            </ul>
+      
+            <br>
+            <h3 class="tabs h3">Portfolio Assignment 7. Computer Vision<br></h3>
+            <ul>
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-30 at 5.20.29 PM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-30 at 5.20.49 PM.png"
+                alt="computervision">
+                <br>
+                <iframe src="https://onedrive.live.com/embed?cid=9FC9E430048B5EEC&resid=9FC9E430048B5EEC%21116&authkey=ACVa4OB_1I-TljE" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <br>
+                <iframe src="https://onedrive.live.com/embed?cid=9FC9E430048B5EEC&resid=9FC9E430048B5EEC%21118&authkey=AEEtTlV6o98aY00" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <br>
+            <li>
+                In this exercise, we were shown a few examples of what p5.js interactions can look like. We were asked to experiment/tinker with some of the examples to make it do something else.
+            </li>
+            <br>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-30 at 5.17.50 PM.png"
+            alt="computervision">
+        <li>
+            <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-30 at 9.48.58 PM.png"
+                alt="computervision">
+            <li>
+                YOLO: For this exercise, I changed the thickness and color of outline and text.
+
+                I also set a condition where the shape of the detector changes from circle to rectangle as my face moves to the left/right side of the canvas(value of the x coordinate exceeds middle point of canva width). At the beginning I found it difficult figuring out why the ellipse detector wouldn't center around the object, until I realised it was constructed differently than rect().
+            </li>
+            <br>
+            <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 11.01.00 AM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 11.01.13 AM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 11.01.18 AM.png"
+                alt="computervision">
+            <li>
+                FaceTracking: I changed the shape of dots into rectangular strips and colors of connecting outlines. I am most happy about learning and applying the mapping method, where I tried to map the x coordinates range of the canvas onto the ranges of color parameters and then apply this to the clown nose, so the amount of red and blue color varies as my face moves across the canvas horizontally. However, the hardest part of the process was finding where the coordinates of the nose was, so it was temporarily substituted with mouseX as a placeholder until I found that I can just attach the nose to a fixed position of the array. Revised previous knowledge about arrays here. Variables that contain mapping methods were first declared globally and later on locally for efficiency. I also tried out a web-like pattern with beginshape().
+            </li>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 11.07.34 AM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 11.42.35 AM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 11.07.26 AM.png"
+            alt="computervision">
+            <br>
+
+            </ul>
+            <br>
+            <br>
+            <h3 class="tabs h3">Portfolio Assignment 8. Hand position and distance<br></h3>
+            <ul>
+                <iframe src="https://onedrive.live.com/embed?cid=9FC9E430048B5EEC&resid=9FC9E430048B5EEC%21119&authkey=ADr_DVHInYEMq3c" width="360" height="640" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <br>
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 4.19.56 PM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 4.20.24 PM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 4.21.29 PM.png"
+                alt="computervision">
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 4.29.27 PM.png"
+                alt="computervision">
+            <li>
+                In this exercise, we learnt about poseNet, an algorithm that detects body key points and can be used for creations on the screen. We were asked to visualize and play with wrist key points and the distance between them in an interesting way.
+            </li>
+            <br>
+            <li>
+                At the beginning, even with tutorial, I was confused by the way the program works and the naming, and error that shows up when I try to add a red nose to the nose key point. so I used console.log to help me understand more about its mechanisms. What I learnt here is 
+            </li>
+            <br>
+            <li>
+                1) it takes time for poseNet model to load and the draw function can execute before poseNet even finished loading, which explains why the editor stops as it cannot determine location of nose when it receives no pose data. 
+            </li>
+            <br>
+            <li>
+                2) poses is an array that contains all key points and skeleton information. poses[0] is an object inside the array that contains both pose and skeleton information; and “pose” further breaks down that information into 17 keypoints that contains x, y coordinates information of that pose. By simplifying poses[0].pose into just “pose” and write as pose.nose.x,
+
+                This means we want to access “the value of the x coordinate of the nose key point that belongs to “pose” category and is inside an array called poses that is detected by poseNet”.
+            </li>
+
+            <br>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.35.08 PM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.35.19 PM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.41.07 PM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.41.48 PM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.41.54 PM.png"
+            alt="computervision">
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 4.49.19 PM.png"
+            alt="computervision">
+            <li>
+                Finally my nose showed up and I added circles to my wrists and use for loops to make access other key points in the array to draw small circles and eventually strokes for skeleton.
+            </li>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 7.11.57 PM.png"
+            alt="computervision">
+            <br>
+            <iframe src="https://drive.google.com/file/d/1rYuUN-sB3M513dSyRtq0O4M6L-D7Dgzm/preview" width="640" height="360" allow="autoplay"></iframe>
+            <br>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 7.20.20 PM.png"
+            alt="computervision"><br>
+            <img class="HCIpics"
+            src="images/ComputerVision/ComputerVision 2022-05-31 at 7.20.28 PM.png"
+            alt="computervision"><br>
+            <iframe src="https://drive.google.com/file/d/1jCMIN7j7vV_ORUWfXy0rVkLVqs5BT8y9/preview" width="640" height="360" allow="autoplay"></iframe>
+            <br>
+            
+            <li>
+                Once I got more familiarised with using distance between key points to create variables that I can use to adjust the sizing of shapes with my hand movements, I experimented with ellipse and then a heart shape function and it became fun.
+            </li>
+            <br>
+            <br>
+
+            </ul>
+            <br>
+
+            <br>
+            <h3 class="tabs h3">Portfolio Assignment 9. Cheer Detection<br></h3>
+            <ul>
+                <iframe src="https://drive.google.com/file/d/1ff_48EQKBvJAJxCiz2kAmpfAx_K1ml93/preview" width="640" height="360" allow="autoplay"></iframe>
+            <br>
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 7.39.56 PM.png"
+                alt="computervision">
+                <br>
+                <img class="HCIpics"
+                src="images/ComputerVision/ComputerVision 2022-05-31 at 7.40.18 PM.png"
+                alt="computervision">
+            <li>
+                Lastly, we need to make a sketch that detect if someone is cheering in an interesting way. Using the hint from the guide, I set up a condition where when y coordinates of wrist key points are higher than y coordinates of shoulder key points, the program will draw a pair of sparkly heart shaped eyes on the key points that detect my eyes. I was really quite proud of myself for figuring this exercise out relatively quickly after the previous long struggles.
+
+I feel like the key to programming is really to break down every tangible and intangible elements into small pieces and assemble them bit by bit. I’m interested to learn more about it in future.
+            </li>
+            <br>
+ 
+
+            </ul>
+            <br>
+
+            
+        </div>
+
+        
+    </div>
+
+</body>
